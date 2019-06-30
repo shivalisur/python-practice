@@ -6,4 +6,4 @@ for num in numbers:
     if num>largest:
         largest=num
 
-print("Largest number in List is {}".format(largest))
+print("Largest number in List is %s" % str(largest))
